@@ -1,0 +1,101 @@
+:root {
+    --blue: #11373A;
+    --off-yellow: #FBDC92;
+    --orange: #FF4C00;
+    --cream: #FEFFEF;
+}
+
+.google-sans-code {
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+        font-family: "Google Sans Code";
+}
+
+html, body {
+    height: 90%; 
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    background-color: black;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    flex-direction: column;
+}
+h1{
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.box {
+    border-radius: 5px;
+    padding: 20px; 
+    text-align: center; 
+}
+
+#blue-box {
+    background-color: var(--blue);
+    flex-wrap: wrap;
+    color: var(--off-yellow);
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+#orange-box {
+    background-color: var(--orange);
+    color: var(--cream);
+    width: 100%;
+    border-radius: 0px;
+}
+
+#cream-box {
+    background-color: var(--off-yellow);
+    color: var(--blue);
+    width: 100%;
+    border-radius: 0px 0px 5px 5px;
+}
+.button {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: var(--off-yellow);
+    border:5px solid var(--blue);
+    color: var(--orange);
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    width: 200px;
+    cursor: pointer;
+}
+
+
+#rock-label:hover,
+#paper-label:hover,
+#scissor-label:hover,
+#results-label:hover,
+p:hover,
+h:hover {
+    color: var(--orange);
+    }
+.button:hover{
+    color: var(--off-yellow);
+    background-color: var(--blue);
+}
