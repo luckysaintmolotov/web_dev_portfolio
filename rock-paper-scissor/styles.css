@@ -99,3 +99,22 @@ h:hover {
     color: var(--off-yellow);
     background-color: var(--blue);
 }
+
+
+
+@media screen and (max-width: 600px) {
+    
+    body {
+        flex-direction: column;
+        text-align: justify;
+        
+    }
+    #blue-box h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+    }
