@@ -132,6 +132,7 @@ Responsive tweaks for very narrow screens
         width: 100%;
         align-self: center;
         justify-content: flex-start;
+        flex-wrap: wrap-reverse;
     }
 
     #food,
