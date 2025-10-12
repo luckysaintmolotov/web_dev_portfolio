@@ -31,7 +31,7 @@ body {
     align-items: center; 
     min-height: 100vh; 
     flex-direction: column;
-}
+    
 h1{
     font-size: 50px;
 }
@@ -41,9 +41,10 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    gap: 5px;
+    max-width: 100%;
+    max-height: 100%;
     flex-wrap: wrap;
+    
 }
 
 .box {
@@ -58,6 +59,7 @@ h1{
     color: var(--off-yellow);
     width: 100%;
     border-radius: 5px 5px 0 0;
+
 }
 
 #orange-box {
@@ -65,6 +67,7 @@ h1{
     color: var(--cream);
     width: 100%;
     border-radius: 0px;
+
 }
 
 #cream-box {
@@ -117,4 +120,4 @@ h:hover {
     p{
         font-size: 15px;
     }
-    }
+    
