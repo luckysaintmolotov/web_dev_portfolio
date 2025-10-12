@@ -28,6 +28,7 @@ All demos are deliberately lightweight, making them ideal for teaching, prototyp
 |---------------------|---------------------------------------------------------------------------|--------------|
 | `rock-paper-scissor` | Classic Rock‑Paper‑Scissors game built with vanilla JavaScript.          | <https://luckysaintmolotov.github.io/web_pages-sites_repo/rock-paper-scissor/> |
 | `generic_italy_menu` | Single‑page restaurant menu styled with responsive CSS.                  | <https://luckysaintmolotov.github.io/web_pages-sites_repo/single_page/generic_italy_menu/> |
+| `etch-a-sketch` | A browser‑based drawing tool that blends the simplicity of a sketchpad with the nostalgic feel of an Etch‑A‑Sketch. Built with JS CSS and HTML | <https://luckysaintmolotov.github.io/web_pages-sites_repo/etch-a-sketch/index.html>
 | *(add more rows as I create new demos)* |  |  |
 
 *Add additional rows here whenever I add a new demo.*
