@@ -18,10 +18,10 @@ All demos are made through online tutorials or from boredom and the desire to ch
 
 | Demo                | Description                                                               | Live Preview |
 |---------------------|---------------------------------------------------------------------------|--------------|
-| `rock-paper-scissor` | Classic Rock‑Paper‑Scissors game built with vanilla JavaScript.          | <https://luckysaintmolotov.github.io/web_pages-sites_repo/rock-p>
-| `generic_italy_menu` | Single‑page restaurant menu styled with responsive CSS.                  | <https://luckysaintmolotov.github.io/web_pages-sites_repo/single>
-| `etch-a-sketch` | A browser‑based drawing tool that blends the simplicity of a sketchpad with the nostalgic feel of an Etch‑A‑Sketch. Built with JS CSS and HTML |<https://luckysaintmolotov.github.io/web_pages-sites_repo/etch-a-sketch/index.html>
-|`todo`| A simple browser-based daily todo webpage built with JS CSS and HTML | <https://luckysaintmolotov.github.io/web_pages-sites_repo/single_page/todo/index.htm>
+| `rock-paper-scissor` | Classic Rock‑Paper‑Scissors game built with vanilla JavaScript.          | <https://luckysaintmolotov.github.io/web_dev_portfolio/rock-paper-scissor/index.html>
+| `generic_italy_menu` | Single‑page restaurant menu styled with responsive CSS.                  | <https://luckysaintmolotov.github.io/web_dev_portfolio/single_page/generic_italy_menu/index.html>
+| `etch-a-sketch` | A browser‑based drawing tool that blends the simplicity of a sketchpad with the nostalgic feel of an Etch‑A‑Sketch. Built with JS CSS and HTML |<https://luckysaintmolotov.github.io/web_dev_portfolio/etch-a-sketch/index.html>
+|`todo`| A simple browser-based daily todo webpage built with JS CSS and HTML | <https://luckysaintmolotov.github.io/web_dev_portfolio/todo/index.html>
 | *(add more rows as I create new demos)* |  |  |
 
 ---
