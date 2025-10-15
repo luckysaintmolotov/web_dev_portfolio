@@ -12,12 +12,13 @@ function createPlaceholderCard(){
     deleteBtn.textContent = "Delete";
     deleteBtn.addEventListener('click', function(){
         card.remove()
+        
 })
-
     const completeBtn = document.createElement('button');
     completeBtn.textContent = "Complete";
     completeBtn.addEventListener('click', function(){
     card.classList.toggle('completed')
+    completeBtn.disabled = true;
     });
     card.appendChild(cardH1);
     card.appendChild(cardDate);
@@ -63,10 +64,12 @@ document.querySelector('form').addEventListener('submit', function(event) {
     completeBtn.textContent = "Complete";
     completeBtn.addEventListener('click', function(){
     card.classList.toggle('completed');
+    completeBtn.disabled = true;
     
     });
     card.appendChild(completeBtn)
     
     const midContainer = document.getElementById("mid-container");
     midContainer.appendChild(card);
+
 });
