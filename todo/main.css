@@ -1,0 +1,88 @@
+
+:root{
+    --red: #FED453;
+    --blue: #01344F;
+    --off-white: #FAE3;
+}
+
+
+.google-sans-code{
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    }
+
+*{
+    font-family: "Google Sans Code";
+}
+    body{
+    display: flex;
+    flex-flow: column wrap;
+    align-items:center;
+    background-color:#090909;
+    margin:0;
+    padding:0;
+
+}
+.container{
+    width: 800px;
+    color:var(--blue);
+}
+
+    #top-container {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: var(--red);
+    border-radius: 5px 5px 0 0;
+    text-align:center;
+    margin: 10px;
+}
+#form-container{
+    display:flex;
+    flex-flow: column wrap;
+    background-color: var(--off-white);
+    color: var(--blue);
+    height: auto;
+}
+.card{
+    padding:2.5px;
+    margin:5px;
+    border: 2.5px solid var(--red);
+    background-color:var(--off-white);
+    color:var(--red);
+    align-self: center;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2.5px 2.5px 5px 1.5px;
+    width: auto;
+}
+
+#mid-container {
+    display: flex;
+    flex-flow: row wrap;
+    max-height: 100vh; 
+    margin: 10px;
+    border-radius:0 0 5px 5px;
+    align-self: stretch;
+    width: auto;
+    justify-content: center;
+}
+
+.card:hover{
+    padding:2.5px;
+    margin:5px;
+    border: 2.5px solid var(--off-white);
+    background-color:var(--red);
+    color:var(--blue);
+    align-self: center;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2.5px 2.5px 5px 1.5px;
+}
+
+.card.completed h5,
+.card.completed p {
+    text-decoration: line-through;
+    color: gray; /* Optional: dim the text to show it's done */
+}
