@@ -14,18 +14,20 @@
 <body>
     
     <div class="container" id="top-container">
-        <h1> ToDo </h1>
+        <h1>luckymolotov's ToDo </h1>
+        <p>a simple todo webpage</p>
+        <br>
             <div class="container" id="form-container">
                 <form>
                     <label for="task-name">Task Name:</label><br>
                     <input type="text" id="task-name" name="task-name" value="Make Food"> 
                     <br>
                     <label for="task-description">Task Description:</label>
-                    <input type="text" id="task-description" name="task-description" value="Steam some dumplings"> 
+                    <textarea type="text" id="task-description" name="task-description" maxlength="256">Steam some dumplings and then deep fry them—especially if you’re trying to outlast the competition.And then make some more and more and more...</textarea>
                     <br>
                     <label for="task-date">Task Date:</label>
                     <br>
-                    <input type="date" id="task-date" name="task-date">
+                    <input type="date" id="task-date" name="task-date" value="1992-10-13">
                     <br>
                     <button type="submit" id="task-add-button"> Add Task </button>
                 </form> 
