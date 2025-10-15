@@ -6,8 +6,12 @@
     --grey: #FAE3;
     --red: #9b2424;
 }
-
-
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+}
 .google-sans-code> {
     font-family: "Google Sans Code", monospace;
     font-optical-sizing: auto;
@@ -22,7 +26,7 @@ body{
     display: flex;
     flex-flow: column wrap;
     align-items:center;
-    background-color:#090909;
+    background-color:#242323;
     margin:0;
     padding:0;
 
@@ -63,6 +67,9 @@ body{
     border-radius: 15px;
     box-shadow: 2.5px 2.5px 5px 1.5px;
     width: auto;
+    align-self: stretch;
+    
+
 }
 
 #mid-container {
@@ -71,18 +78,18 @@ body{
     max-height: 100vh; 
     margin: 10px;
     border-radius:0 0 5px 5px;
-    align-self: stretch;
     width: auto;
-    justify-content: center;
+    gap: 10px;
+
 }
 
 .card:hover{
     padding:2.5px;
-    margin:5px;
+    margin:-5px;
     border: 2.5px solid var(--grey);
     background-color:var(--blue);
     color:var(--yellow-darker);
-    align-self: center;
+    align-self: stretch;
     text-align: center;
     border-radius: 15px;
     box-shadow: 2.5px 2.5px 5px 1.5px;
@@ -119,5 +126,10 @@ button{
     border-radius: 5px;
     width: 100px;
     cursor: grab;
+    margin-top: auto;
 
+}
+sub{
+    font-size: small;
+    font-style: oblique;
 }
