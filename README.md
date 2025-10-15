@@ -1,6 +1,6 @@
 # web_dev_portfolio
 
-A collection of small, self-contained web pages that showcase  HTML/CSS/JavaScript concepts. Each folder contains a standalone demo that can be opened directly or through the main index.html in the root folder. T
+A collection of small, self-contained web pages that showcase  HTML/CSS/JavaScript concepts. Each folder contains a standalone demo that can be opened directly or through the main index.html in the root folder.
 ---
 
 ## Overview  
@@ -20,7 +20,7 @@ All demos are made through online tutorials or from boredom and the desire to ch
 |---------------------|---------------------------------------------------------------------------|--------------|
 | `rock-paper-scissor` | Classic Rock‑Paper‑Scissors game built with vanilla JavaScript.          | <https://luckysaintmolotov.github.io/web_pages-sites_repo/rock-p>
 | `generic_italy_menu` | Single‑page restaurant menu styled with responsive CSS.                  | <https://luckysaintmolotov.github.io/web_pages-sites_repo/single>
-| `etch-a-sketch` | A browser‑based drawing tool that blends the simplicity of a sketchpad with the nostalgic feel of an Etch‑A‑Sketch. Built with JS CSS and HTML |>
+| `etch-a-sketch` | A browser‑based drawing tool that blends the simplicity of a sketchpad with the nostalgic feel of an Etch‑A‑Sketch. Built with JS CSS and HTML |<https://luckysaintmolotov.github.io/web_pages-sites_repo/etch-a-sketch/index.html>
 |`todo`| A simple browser-based daily todo webpage built with JS CSS and HTML | <https://luckysaintmolotov.github.io/web_pages-sites_repo/single_page/todo/index.htm>
 | *(add more rows as I create new demos)* |  |  |
 
