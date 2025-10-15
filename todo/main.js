@@ -2,7 +2,7 @@ function createPlaceholderCard(){
     const container = document.getElementById("mid-container")
     const card = document.createElement('div');
     card.classList.add('card');
-    const cardH1 = document.createElement('h1');
+    const cardH1 = document.createElement('h2');
     cardH1.textContent= "Cat Husbandry"
     const cardDate = document.createElement('h5');
     cardDate.textContent= "2025-10-15"
@@ -20,12 +20,14 @@ function createPlaceholderCard(){
     card.classList.toggle('completed')
     completeBtn.disabled = true;
     });
+    const hr = document.createElement('hr')
     card.appendChild(cardH1);
+    card.appendChild(hr)    
     card.appendChild(cardDate);
     card.appendChild(cardDescription);
-    container.appendChild(card);
     card.appendChild(deleteBtn)
     card.appendChild(completeBtn)
+    container.appendChild(card);
 
 };
 
@@ -41,9 +43,13 @@ document.querySelector('form').addEventListener('submit', function(event) {
     const card = document.createElement('div');
     card.classList.add('card');
 
-    const cardH1 = document.createElement('h1');
+    const cardH1 = document.createElement('h2');
     cardH1.textContent= name;
     card.appendChild(cardH1);
+
+    const hr = document.createElement('hr')
+    card.appendChild(hr)
+
 
     const cardDate = document.createElement('h5');
     cardDate.textContent= date;
