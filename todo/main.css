@@ -1,8 +1,10 @@
 
 :root{
-    --red: #FED453;
-    --blue: #01344F;
-    --off-white: #FAE3;
+    --blue: #2b5c9c;
+    --yellow-darker: #e69c3d;
+    --yellow: #e2d306;
+    --grey: #FAE3;
+    --red: #9b2424;
 }
 
 
@@ -27,14 +29,15 @@ body{
 }
 .container{
     width: 800px;
-    color:var(--blue);
+    color:var(--yellow-darker);
 }
 
 #top-container {
     display: flex;
     flex-flow: column nowrap;
-    background-color: var(--red);
+    background-color: var(--blue);
     border-radius: 5px 5px 0 0;
+
     text-align:center;  
     width: 100%;
     height: auto;
@@ -44,18 +47,17 @@ body{
     box-sizing: box-content;
     display:flex;
     flex-flow: column wrap;
-    color: var(--blue);
+    color: var(--yellow-darker);
     margin:auto;
     width: 15%;
     align-self:center;
-    height: 100%;
 }
 .card{
     padding:2.5px;
     margin:5px;
-    border: 2.5px solid var(--red);
-    background-color:var(--off-white);
-    color:var(--red);
+    border: 2.5px solid var(--blue);
+    background-color:var(--yellow-darker);
+    color:var(--blue);
     align-self: center;
     text-align: center;
     border-radius: 15px;
@@ -77,31 +79,41 @@ body{
 .card:hover{
     padding:2.5px;
     margin:5px;
-    border: 2.5px solid var(--off-white);
-    background-color:var(--red);
-    color:var(--blue);
+    border: 2.5px solid var(--grey);
+    background-color:var(--blue);
+    color:var(--yellow-darker);
     align-self: center;
     text-align: center;
     border-radius: 15px;
     box-shadow: 2.5px 2.5px 5px 1.5px;
     cursor: wait;
+    border-color: var(--yellow-darker);
 
 }
 .card.completed{
     text-decoration: line-through;
   color: gray; /* Optional: dim the text to show it's done */
     cursor: not-allowed;
+    background-color: #0f0f0f;
 }
-
+.card.completed:hover{
+    background-color: #090909;
+    border-color: var(--red);
+    color:var(--red);
+}
+textarea,
 input{
     border-radius: 5px;
     padding: 10px;
     border: none;
     margin: 10px;
     cursor: crosshair;
-
+    resize: none;
 }
-
+textarea{
+    width: 15rem;
+    height: 15rem;
+}
 button{
     padding:5px;
     border-radius: 5px;
